@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-container {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.form {
+    width: inherit;
+    min-height: 30rem;
+    border: 1px solid darkgrey;
+    margin-top: 3rem;
+    border-radius: 15px;
+    padding: 3rem 3rem;
+}
+
+.form h3 {
+    margin-bottom: 2rem;
+}
+
+.form label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .6rem;
+}
+
+.form input[type=email], .form input[type=password] {
+    height: 3.5rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.form input[type=checkbox] {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: .5rem;
+}
+
+.form button {
+    height: 3.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.form .forgotpwd {
+    margin-top: 1rem;
+}
